@@ -1,8 +1,5 @@
-# coding: utf-8
 from __future__ import print_function
 import tensorflow as tf
-from preprocessing import preprocessing_factory
-import reader
 import model
 import time
 import os
