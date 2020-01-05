@@ -62,5 +62,5 @@ def mean_image_subtraction(image, means):
 
 
 if __name__ == '__main__':
-    f = read_conf_file('conf/mosaic.yml')
+    f = read_conf_file('conf/mosaic_alpha=1.0.yml')
     print(f.loss_model_file)

@@ -17,7 +17,7 @@ slim = tf.contrib.slim
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--conf', default='conf/mosaic.yml', help='the path to the conf file')
+    parser.add_argument('-c', '--conf', default='conf/mosaic_alpha=1.0.yml', help='the path to the conf file')
     return parser.parse_args()
 
 
