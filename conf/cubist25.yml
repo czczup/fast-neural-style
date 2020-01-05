@@ -1,6 +1,6 @@
 ## Basic configuration
 style_image: img/cubist.jpg # targeted style image
-naming: "cubist_alpha=0.75" # the name of this model. Determine the path to save checkpoint and events file.
+naming: "cubist25" # the name of this model. Determine the path to save checkpoint and events file.
 model_path: models  # root path to save checkpoint and events file. The final path would be <model_path>/<naming>
 
 ## Weight of the loss

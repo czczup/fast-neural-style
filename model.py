@@ -95,33 +95,29 @@ def residual(x, filters, kernel, strides):
 def net(image, training):
     # Less border effects when padding a little before passing through ..
     image = tf.pad(image, [[0, 0], [10, 10], [10, 10], [0, 0]], mode='REFLECT')
-
+    alpha = 0.75
     with tf.variable_scope('conv1'):
-        conv1 = relu(instance_norm(conv2d(image, 3, 32, 9, 1)))
+        conv1 = relu(instance_norm(conv2d(image, 3, int(32*alpha), 9, 1)))
     with tf.variable_scope('conv2'):
-        conv2 = relu(instance_norm(conv2d(conv1, 32, 64, 3, 2)))
+        conv2 = relu(instance_norm(conv2d(conv1, int(32*alpha), int(64*alpha), 3, 2)))
     with tf.variable_scope('conv3'):
-        conv3 = relu(instance_norm(conv2d(conv2, 64, 128, 3, 2)))
+        conv3 = relu(instance_norm(conv2d(conv2, int(64*alpha), int(128*alpha), 3, 2)))
     with tf.variable_scope('res1'):
-        res1 = residual(conv3, 128, 3, 1)
+        res1 = residual(conv3, int(128*alpha), 3, 1)
     with tf.variable_scope('res2'):
-        res2 = residual(res1, 128, 3, 1)
+        res2 = residual(res1, int(128*alpha), 3, 1)
     with tf.variable_scope('res3'):
-        res3 = residual(res2, 128, 3, 1)
+        res3 = residual(res2, int(128*alpha), 3, 1)
     with tf.variable_scope('res4'):
-        res4 = residual(res3, 128, 3, 1)
+        res4 = residual(res3, int(128*alpha), 3, 1)
     with tf.variable_scope('res5'):
-        res5 = residual(res4, 128, 3, 1)
-    # print(res5.get_shape())
+        res5 = residual(res4, int(128*alpha), 3, 1)
     with tf.variable_scope('deconv1'):
-        # deconv1 = relu(instance_norm(conv2d_transpose(res5, 128, 64, 3, 2)))
-        deconv1 = relu(instance_norm(resize_conv2d(res5, 128, 64, 3, 2, training)))
+        deconv1 = relu(instance_norm(resize_conv2d(res5, int(128*alpha), int(64*alpha), 3, 2, training)))
     with tf.variable_scope('deconv2'):
-        # deconv2 = relu(instance_norm(conv2d_transpose(deconv1, 64, 32, 3, 2)))
-        deconv2 = relu(instance_norm(resize_conv2d(deconv1, 64, 32, 3, 2, training)))
+        deconv2 = relu(instance_norm(resize_conv2d(deconv1, int(64*alpha), int(32*alpha), 3, 2, training)))
     with tf.variable_scope('deconv3'):
-        # deconv_test = relu(instance_norm(conv2d(deconv2, 32, 32, 2, 1)))
-        deconv3 = tf.nn.tanh(instance_norm(conv2d(deconv2, 32, 3, 9, 1)))
+        deconv3 = tf.nn.tanh(instance_norm(conv2d(deconv2, int(32*alpha), 3, 9, 1)))
 
     y = (deconv3 + 1) * 127.5
 

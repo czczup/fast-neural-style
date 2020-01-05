@@ -17,7 +17,7 @@ slim = tf.contrib.slim
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--conf', default='conf/mosaic_alpha=1.0.yml', help='the path to the conf file')
+    parser.add_argument('-c', '--conf', default='conf/mosaic100.yml', help='the path to the conf file')
     return parser.parse_args()
 
 
@@ -95,6 +95,7 @@ def main(FLAGS):
             for v in tf.global_variables():
                 if not(v.name.startswith(FLAGS.loss_model)):
                     variables_to_restore.append(v)
+            variables_to_restore = [var for var in variables_to_restore if 'Adam' not in var.name]
             saver = tf.train.Saver(variables_to_restore, write_version=tf.train.SaverDef.V1)
 
             sess.run([tf.global_variables_initializer(), tf.local_variables_initializer()])
@@ -131,6 +132,8 @@ def main(FLAGS):
                     """checkpoint"""
                     if step % 1000 == 0:
                         saver.save(sess, os.path.join(training_path, 'fast-style-model.ckpt'), global_step=step)
+                    if step == 20000:
+                        break
             except tf.errors.OutOfRangeError:
                 saver.save(sess, os.path.join(training_path, 'fast-style-model.ckpt-done'))
                 tf.logging.info('Done training -- epoch limit reached')
@@ -140,6 +143,8 @@ def main(FLAGS):
 
 
 if __name__ == '__main__':
+    deviceId = input("please input device id (0-7): ")
+    os.environ["CUDA_VISIBLE_DEVICES"] = deviceId
     tf.logging.set_verbosity(tf.logging.INFO)
     args = parse_args()
     FLAGS = utils.read_conf_file(args.conf)
