@@ -17,7 +17,7 @@ slim = tf.contrib.slim
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--conf', default='conf/mosaic100.yml', help='the path to the conf file')
+    parser.add_argument('-c', '--conf', default='conf/mosaic4.yml', help='the path to the conf file')
     return parser.parse_args()
 
 
@@ -133,6 +133,7 @@ def main(FLAGS):
                     if step % 1000 == 0:
                         saver.save(sess, os.path.join(training_path, 'fast-style-model.ckpt'), global_step=step)
                     if step == 20000:
+                        saver.save(sess, os.path.join(training_path, 'fast-style-model.ckpt-done'))
                         break
             except tf.errors.OutOfRangeError:
                 saver.save(sess, os.path.join(training_path, 'fast-style-model.ckpt-done'))

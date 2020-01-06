@@ -95,7 +95,7 @@ def residual(x, filters, kernel, strides):
 def net(image, training):
     # Less border effects when padding a little before passing through ..
     image = tf.pad(image, [[0, 0], [10, 10], [10, 10], [0, 0]], mode='REFLECT')
-    alpha = 0.75
+    alpha = 1
     with tf.variable_scope('conv1'):
         conv1 = relu(instance_norm(conv2d(image, 3, int(32*alpha), 9, 1)))
     with tf.variable_scope('conv2'):
@@ -103,17 +103,17 @@ def net(image, training):
     with tf.variable_scope('conv3'):
         conv3 = relu(instance_norm(conv2d(conv2, int(64*alpha), int(128*alpha), 3, 2)))
     with tf.variable_scope('res1'):
-        res1 = residual(conv3, int(128*alpha), 3, 1)
+        res = residual(conv3, int(128*alpha), 3, 1)
     with tf.variable_scope('res2'):
-        res2 = residual(res1, int(128*alpha), 3, 1)
+        res = residual(res, int(128*alpha), 3, 1)
     with tf.variable_scope('res3'):
-        res3 = residual(res2, int(128*alpha), 3, 1)
+        res = residual(res, int(128*alpha), 3, 1)
     with tf.variable_scope('res4'):
-        res4 = residual(res3, int(128*alpha), 3, 1)
-    with tf.variable_scope('res5'):
-        res5 = residual(res4, int(128*alpha), 3, 1)
+        res = residual(res, int(128*alpha), 3, 1)
+    # with tf.variable_scope('res5'):
+    #     res = residual(res, int(128*alpha), 3, 1)
     with tf.variable_scope('deconv1'):
-        deconv1 = relu(instance_norm(resize_conv2d(res5, int(128*alpha), int(64*alpha), 3, 2, training)))
+        deconv1 = relu(instance_norm(resize_conv2d(res, int(128*alpha), int(64*alpha), 3, 2, training)))
     with tf.variable_scope('deconv2'):
         deconv2 = relu(instance_norm(resize_conv2d(deconv1, int(64*alpha), int(32*alpha), 3, 2, training)))
     with tf.variable_scope('deconv3'):

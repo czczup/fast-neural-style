@@ -2,27 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="219b6396-b894-4a0a-8ff8-fb5ba95f7375" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/beta/cubist4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/beta/feathers4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/beta/mosaic4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/beta/udnie4.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/beta/wave4.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/cubist_alpha=0.25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/cubist25.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/cubist_alpha=0.5.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/cubist50.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/cubist_alpha=0.75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/cubist75.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/cubist_alpha=1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/cubist100.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/feathers_alpha=0.25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/feathers25.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/feathers_alpha=0.5.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/feathers50.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/feathers_alpha=0.75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/feathers75.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/feathers_alpha=1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/feathers100.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/mosaic_alpha=0.25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/mosaic25.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/mosaic_alpha=0.5.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/mosaic50.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/mosaic_alpha=0.75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/mosaic75.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/mosaic_alpha=1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/mosaic100.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/udnie_alpha=0.25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/udnie25.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/udnie_alpha=0.5.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/udnie50.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/udnie_alpha=0.75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/udnie75.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/udnie_alpha=1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/udnie100.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/wave_alpha=0.25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/wave25.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/wave_alpha=0.5.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/wave50.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/wave_alpha=0.75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/wave75.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/wave_alpha=1.0.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/wave100.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/cubist100.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/cubist100.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/cubist25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/cubist25.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/cubist50.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/cubist50.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/cubist75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/cubist75.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/feathers100.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/feathers100.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/feathers25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/feathers25.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/feathers50.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/feathers50.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/feathers75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/feathers75.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/mosaic100.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/mosaic100.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/mosaic25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/mosaic25.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/mosaic50.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/mosaic50.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/mosaic75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/mosaic75.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/udnie100.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/udnie100.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/udnie25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/udnie25.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/udnie50.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/udnie50.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/udnie75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/udnie75.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/wave100.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/wave100.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/wave25.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/wave25.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/wave50.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/wave50.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/wave75.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/alpha/wave75.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
@@ -35,32 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/export.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eval.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train.py">
+        <entry file="file://$PROJECT_DIR$/conf/beta/mosaic4.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="116" column="16" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
-              <folding>
-                <element signature="e#16#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="52">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -78,18 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eval.py" />
-        <option value="$PROJECT_DIR$/conf/candy.yml" />
-        <option value="$PROJECT_DIR$/conf/cubist_alpha=0.75.yml" />
-        <option value="$PROJECT_DIR$/conf/cubist_alpha=1.0.yml" />
-        <option value="$PROJECT_DIR$/conf/mosaic_alpha=0.75.yml" />
-        <option value="$PROJECT_DIR$/conf/udnie_alpha=0.75.yml" />
-        <option value="$PROJECT_DIR$/conf/wave_alpha=0.75.yml" />
-        <option value="$PROJECT_DIR$/conf/feathers_alpha=1.0.yml" />
-        <option value="$PROJECT_DIR$/conf/mosaic_alpha=1.0.yml" />
-        <option value="$PROJECT_DIR$/conf/udnie_alpha=1.0.yml" />
-        <option value="$PROJECT_DIR$/conf/wave_alpha=1.0.yml" />
-        <option value="$PROJECT_DIR$/conf/cubist_alpha=0.5.yml" />
         <option value="$PROJECT_DIR$/conf/feathers_alpha=0.5.yml" />
         <option value="$PROJECT_DIR$/conf/mosaic_alpha=0.5.yml" />
         <option value="$PROJECT_DIR$/conf/udnie_alpha=0.5.yml" />
@@ -99,7 +71,6 @@
         <option value="$PROJECT_DIR$/conf/mosaic_alpha=0.25.yml" />
         <option value="$PROJECT_DIR$/conf/udnie_alpha=0.25.yml" />
         <option value="$PROJECT_DIR$/conf/wave_alpha=0.25.yml" />
-        <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/conf/cubist1.yml" />
         <option value="$PROJECT_DIR$/conf/cubist50.yml" />
         <option value="$PROJECT_DIR$/conf/cubist25.yml" />
@@ -121,24 +92,33 @@
         <option value="$PROJECT_DIR$/conf/mosaic75.yml" />
         <option value="$PROJECT_DIR$/conf/mosaic25.yml" />
         <option value="$PROJECT_DIR$/train.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/fast-neural-style.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
-        <option value="$PROJECT_DIR$/.idea/webServers.xml" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/conf/beta/cubist100.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/feathers100.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/mosaic100.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/udnie100.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/wave100.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/cubist1.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/cubist2.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/cubist3.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/feathers1.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/feathers2.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/feathers3.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/mosaic1.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/mosaic2.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/mosaic3.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/udnie1.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/udnie2.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/udnie3.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/wave1.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/wave2.yml" />
+        <option value="$PROJECT_DIR$/conf/beta/wave3.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="235" />
-    <option name="y" value="171" />
+    <option name="y" value="170" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -148,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,11 +141,21 @@
               <item name="fast-neural-style" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fast-neural-style" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fast-neural-style" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="beta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fast-neural-style" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fast-neural-style" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,14 +166,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/conf/beta" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\信息学院文件\5 深度学习代码\fast-neural-style\conf\beta" />
       <recent name="D:\OneDrive\信息学院文件\5 深度学习代码\fast-neural-style\conf" />
       <recent name="D:\OneDrive\信息学院文件\5 深度学习代码\fast-neural-style\generated" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\信息学院文件\5 深度学习代码\fast-neural-style\conf\alpha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,7 +204,10 @@
       <updated>1578221080401</updated>
       <workItem from="1578221081595" duration="3270000" />
       <workItem from="1578230300855" duration="3029000" />
-      <workItem from="1578234346909" duration="6343000" />
+      <workItem from="1578234346909" duration="6373000" />
+      <workItem from="1578274187258" duration="508000" />
+      <workItem from="1578289438655" duration="4548000" />
+      <workItem from="1578322097461" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="add models">
       <created>1578231106078</created>
@@ -253,21 +251,27 @@
       <option name="project" value="LOCAL" />
       <updated>1578238854080</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="训练alpha=0.75">
+      <created>1578240783207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578240783207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12642000" />
+    <option name="totallyTimeSpent" value="18230000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12792969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12760417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297244" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -275,7 +279,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49902344" weight="0.32874015" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49902344" weight="0.32692307" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50097656" side_tool="true" weight="0.32874015" />
@@ -288,11 +292,11 @@
       <window_info anchor="right" id="Remote Host" order="5" weight="0.16748047" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12792969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12760417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297244" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -300,7 +304,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49902344" weight="0.32874015" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49902344" visible="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50097656" side_tool="true" weight="0.32874015" />
@@ -310,7 +314,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Remote Host" order="5" visible="true" weight="0.16748047" />
+      <window_info anchor="right" id="Remote Host" order="5" weight="0.16748047" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,62 +326,10 @@
     <MESSAGE value="删除几个无效引用" />
     <MESSAGE value="不用除以256了，除不除效果完全一样" />
     <MESSAGE value="添加了一些yml文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了一些yml文件" />
+    <MESSAGE value="训练alpha=0.75" />
+    <option name="LAST_COMMIT_MESSAGE" value="训练alpha=0.75" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2027" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/losses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2409" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nets/nets_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/denoised_starry.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/scream.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/feathers.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/mosaic.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/scream.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/style_cubist.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/style_denoised_starry.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/style_feathers.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/style_mosaic.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/style_scream.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/denoised_starry.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/results/cubist.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/preprocessing_factory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
@@ -409,9 +361,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/test.jpg" />
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -422,154 +372,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/candy.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1082">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/wave100.yml">
+    <entry file="file://$PROJECT_DIR$/conf/candy.yml" />
+    <entry file="file://$PROJECT_DIR$/conf/alpha/wave100.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/wave75.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/wave75.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/wave50.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/wave50.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/wave25.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/wave25.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/udnie100.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/udnie100.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/udnie75.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/udnie75.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/udnie50.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/udnie50.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/udnie25.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/udnie25.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/mosaic100.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/mosaic100.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/mosaic75.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/mosaic75.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/mosaic50.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/mosaic50.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/mosaic25.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/mosaic25.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/feathers100.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/feathers100.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/feathers75.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/feathers75.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/feathers50.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/feathers50.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/feathers25.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/feathers25.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/cubist100.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/cubist100.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/cubist75.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/cubist75.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/cubist50.yml">
+    <entry file="file://$PROJECT_DIR$/conf/alpha/cubist50.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/cubist25.yml">
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="134" column="31" lean-forward="true" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+          <folding>
+            <element signature="e#16#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/alpha/cubist25.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
@@ -578,25 +525,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/export.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="624">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="260">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
+    <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="116" column="16" lean-forward="true" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
-          <folding>
-            <element signature="e#16#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="494">
+          <caret line="97" column="13" lean-forward="true" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/cubist1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/cubist2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/cubist3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/cubist4.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/feathers1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/feathers2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/feathers3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/feathers4.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/mosaic1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/mosaic2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/mosaic3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/udnie2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/udnie3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/udnie4.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/wave1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/wave2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/wave3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/wave4.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/udnie1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/beta/mosaic4.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
