@@ -18,6 +18,7 @@ slim = tf.contrib.slim
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--conf', default='conf/mosaic4.yml', help='the path to the conf file')
+    parser.add_argument('-d', '--d', default='d', help='')
     return parser.parse_args()
 
 
@@ -42,7 +43,7 @@ def main(FLAGS):
                 is_training=False)
             processed_images = reader.image(FLAGS.batch_size, FLAGS.image_size, FLAGS.image_size,
                                             'train2014/', image_preprocessing_fn, epochs=FLAGS.epoch)
-            generated = model.net(processed_images, training=True)
+            generated = model.net(processed_images, FLAGS=FLAGS, training=True)
             processed_generated = [image_preprocessing_fn(image, FLAGS.image_size, FLAGS.image_size)
                                    for image in tf.unstack(generated, axis=0, num=FLAGS.batch_size)
                                    ]
@@ -144,9 +145,10 @@ def main(FLAGS):
 
 
 if __name__ == '__main__':
-    deviceId = input("please input device id (0-7): ")
-    os.environ["CUDA_VISIBLE_DEVICES"] = deviceId
+    # deviceId = input("please input device id (0-7): ")
+
     tf.logging.set_verbosity(tf.logging.INFO)
     args = parse_args()
     FLAGS = utils.read_conf_file(args.conf)
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(FLAGS.gpu)
     main(FLAGS)

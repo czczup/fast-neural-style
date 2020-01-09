@@ -92,26 +92,32 @@ def residual(x, filters, kernel, strides):
         return residual
 
 
-def net(image, training):
+def net(image, FLAGS, training):
     # Less border effects when padding a little before passing through ..
     image = tf.pad(image, [[0, 0], [10, 10], [10, 10], [0, 0]], mode='REFLECT')
-    alpha = 1
+    alpha = FLAGS.alpha
+    beta = FLAGS.beta
     with tf.variable_scope('conv1'):
         conv1 = relu(instance_norm(conv2d(image, 3, int(32*alpha), 9, 1)))
     with tf.variable_scope('conv2'):
         conv2 = relu(instance_norm(conv2d(conv1, int(32*alpha), int(64*alpha), 3, 2)))
     with tf.variable_scope('conv3'):
         conv3 = relu(instance_norm(conv2d(conv2, int(64*alpha), int(128*alpha), 3, 2)))
-    with tf.variable_scope('res1'):
-        res = residual(conv3, int(128*alpha), 3, 1)
-    with tf.variable_scope('res2'):
-        res = residual(res, int(128*alpha), 3, 1)
-    with tf.variable_scope('res3'):
-        res = residual(res, int(128*alpha), 3, 1)
-    with tf.variable_scope('res4'):
-        res = residual(res, int(128*alpha), 3, 1)
-    # with tf.variable_scope('res5'):
-    #     res = residual(res, int(128*alpha), 3, 1)
+    if beta >= 1:
+        with tf.variable_scope('res1'):
+            res = residual(conv3, int(128*alpha), 3, 1)
+    if beta >= 2:
+        with tf.variable_scope('res2'):
+            res = residual(res, int(128*alpha), 3, 1)
+    if beta >= 3:
+        with tf.variable_scope('res3'):
+            res = residual(res, int(128*alpha), 3, 1)
+    if beta >= 4:
+        with tf.variable_scope('res4'):
+            res = residual(res, int(128*alpha), 3, 1)
+    if beta >= 5:
+        with tf.variable_scope('res5'):
+            res = residual(res, int(128*alpha), 3, 1)
     with tf.variable_scope('deconv1'):
         deconv1 = relu(instance_norm(resize_conv2d(res, int(128*alpha), int(64*alpha), 3, 2, training)))
     with tf.variable_scope('deconv2'):
