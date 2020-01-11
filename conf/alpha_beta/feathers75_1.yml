@@ -14,7 +14,7 @@ batch_size: 4
 epoch: 2
 alpha: 0.75
 beta: 1
-gpu: 3
+gpu: 6
 ## Loss Network
 loss_model: "vgg_16"
 content_layers:  # use these layers for content loss

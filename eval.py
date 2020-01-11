@@ -2,11 +2,11 @@ from __future__ import print_function
 import tensorflow as tf
 import model
 import time
-import os
+
 import numpy as np
 from PIL import Image
-
-os.environ["CUDA_VISIBLE_DEVICES"] = '5'
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = '7'
 
 tf.app.flags.DEFINE_string('loss_model', 'vgg_16', "")
 tf.app.flags.DEFINE_string("model_file", "models.ckpt", "")
@@ -55,9 +55,13 @@ def main(_):
 
             im = Image.open(FLAGS.image_file)
             im = center_crop(im, 512, 512)
+            im.save("xxx.jpg")
+
             start_time = time.time()
+
             image_ = sess.run(generated, feed_dict={image_placeholder: [np.array(im)]})
             end_time = time.time()
+            print("%.3fs"%(end_time-start_time))
             image_ = Image.fromarray(image_)
             image_ = center_crop(image_, 512, 512)
             image_.save(FLAGS.save_file)
